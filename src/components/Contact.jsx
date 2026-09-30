@@ -108,7 +108,7 @@ export default function Contact() {
                 componentkey="4ac2e7c7-a778-4bb1-beb0-366608ee1654"
                 role="img"
                 aria-label="LinkedIn"
-                style={{width: "34px", minWidth: "34px", height: "34px", minHeight: "34px"}}
+                style={{width: "20px", minWidth: "20px", height: "20px", minHeight: "20px"}}
               >
                 <path
                   fill="#0a66c2"
