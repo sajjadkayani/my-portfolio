@@ -19,7 +19,7 @@ const experiences = [
     title: "Frontend Developer",
     company: "QMH Technologies",
     location: "Islamabad",
-    period: "May 2023 — December 2024",
+    period: "Nov 2022 — December 2024",
     description: [
       "Architected and shipped 16 high-fidelity landing pages in a 5-day delivery cycle, owning the full pipeline from development to deployment",
       "Promoted from Junior to Mid-level Frontend Developer within first year based on performance and delivery speed",
@@ -34,7 +34,7 @@ const experiences = [
     title: "Junior Frontend Developer",
     company: "CODERSGLOBE",
     location: "Islamabad",
-    period: "May 2022 — April 2023",
+    period: "Jan 2021 — Nov 2022",
     description: [
       "Self-taught React.js from zero to production level during internship and secured full-time position",
       "Developed MyDasma.com, an Albanian wedding ecommerce platform with multiple payment methods including installment payments",

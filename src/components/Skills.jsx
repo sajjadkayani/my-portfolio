@@ -1,37 +1,65 @@
-import { motion } from 'framer-motion'
+import { motion } from "framer-motion";
 
 const skillGroups = [
   {
     category: "Frontend",
-    skills: ["React.js", "Next.js", "TypeScript", "JavaScript", "HTML5", "CSS3"]
+    skills: [
+      "React.js",
+      "Next.js",
+      "TypeScript",
+      "JavaScript",
+      "HTML5",
+      "CSS3",
+    ],
   },
   {
     category: "Editor Engineering",
-    skills: ["TipTap v3", "ProseMirror", "GrapeJS", "Yjs", "Real-time Collaboration"]
+    skills: [
+      "TipTap v3",
+      "ProseMirror",
+      "GrapeJS",
+      "Yjs",
+      "Real-time Collaboration",
+    ],
   },
   {
     category: "Styling",
-    skills: ["Tailwind CSS", "SASS", "SCSS", "Bootstrap", "Material UI"]
+    skills: ["Tailwind CSS", "SASS", "SCSS", "Bootstrap", "Material UI"],
   },
   {
     category: "Backend & Database",
-    skills: ["Node.js", "Express.js", "MongoDB", "REST APIs"]
+    skills: ["Node.js", "Express.js", "MongoDB", "REST APIs"],
   },
   {
     category: "CMS & Ecommerce",
-    skills: ["WordPress", "Magento"]
+    skills: ["WordPress", "Magento"],
   },
   {
     category: "Tools & Workflow",
-    skills: ["Git", "Redux", "Redux Toolkit", "Agile", "Performance Testing", "Cross-browser Compatibility"]
+    skills: [
+      "Git",
+      "Redux",
+      "Redux Toolkit",
+      "Agile",
+      "Performance Testing",
+      "Cross-browser Compatibility",
+    ],
   },
-]
+];
 
 export default function Skills() {
   return (
     <section id="skills" className="py-24 px-6">
       <div className="max-w-4xl mx-auto">
-
+        {/* <video
+          autoPlay
+          muted
+          loop
+          playsInline
+          className="w-full rounded-xl border border-white/10"
+        >
+          <source src="/editor-demo.mp4" type="video/mp4" />
+        </video> */}
         <motion.p
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
@@ -76,8 +104,7 @@ export default function Skills() {
             </motion.div>
           ))}
         </div>
-
       </div>
     </section>
-  )
+  );
 }

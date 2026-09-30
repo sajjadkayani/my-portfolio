@@ -30,10 +30,10 @@ const projects = [
     featured: false,
   },
   {
-    title: "Zikra Infotech — Agency Website",
-    description: "US-based digital marketing agency website serving healthcare and business clients across America. Built with WordPress with custom theme and integrations.",
-    tags: ["WordPress", "HTML", "CSS", "JavaScript"],
-    link: "https://zikrainfotech.com",
+    title: "NANOFIELD.AI",
+    description: "An AI media-generation SaaS platform (Next.js/React + Fastify/Node monorepo) enabling text-to-image,text-to-video, and text-to-audio generation, an AI Influencer Studio for persona-based content, and anode-graph canvas (“Spaces”) for multi-step generation workflows.",
+    tags: ["Next.js", "HTML", "CSS", "TypeScript"],
+    link: "https://app.nanofield.ai",
     featured: false,
   },
 ]
