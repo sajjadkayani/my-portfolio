@@ -2,7 +2,7 @@ import { motion } from 'framer-motion'
 
 const projects = [
   {
-    title: "ELEVA — Full SaaS Platform",
+    title: "Stackly — Full SaaS Platform",
     description: "A complete SaaS platform built from ground up including CRM, visual page builder, funnel builder, project management, team management, real-time chat, and prospecting modules. Built custom rich text editor with TipTap v3 and GrapeJS page builder from scratch.",
     tags: ["React.js", "TipTap v3", "ProseMirror", "GrapeJS", "Yjs", "Node.js", "MongoDB"],
     link: "https://dev.agencyeleva.com",

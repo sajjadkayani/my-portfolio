@@ -58,7 +58,7 @@ export default function Skills() {
           playsInline
           className="w-full rounded-xl border border-white/10"
         >
-          <source src="/editor-demo.mp4" type="video/mp4" />
+          <source src="/editor-demo.mp4" type="video/mp4" />FvFv
         </video> */}
         <motion.p
           initial={{ opacity: 0 }}
